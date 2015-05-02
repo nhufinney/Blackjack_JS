@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>Black Jack</title>
+</head>
+<body>
+
+  <div class='container' class="form-inline">
+      <h2 align= "center">BlackJack!!!</h2>
+
+    <!-- this function to show card in text for testing -->
+    <!-- <div class="row">
+        <div class="col-md-6" class="form-control">
+
+            <form id="human">
+                <p id="hum1"></p>
+            </form> -->
+        <!-- </div>
+        <div class="col-md-6" class="form-control">
+            <form id="computer">
+                <p id="comp1"></p>
+            </form> -->
+        <!-- </div>
+    </div>   -->
+        <div class="row">
+            <div class="col-md-6" class="form-control">
+                <div id="player">
+                  <h1>Player</h1>
+                  <img class='player_card1' id= 'deck'></img>
+                  <img class='player_card2' id= 'deck'></img>
+                  <img class='player_card3' id= 'deck'></img>
+                  <img class='player_card4' id= 'deck'></img>
+                  <img class='player_card5' id= 'deck'></img>
+                  <h4><span id = "result_player1"></span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" class="form-control">
+                <div id="computer">
+                  <h1>Dealer</h1>
+                  <img class='computer_card1' id= 'deck'></img>
+                  <img class='computer_card2' id= 'deck'></img>
+                  <img class='computer_card3' id= 'deck'></img>
+                  <img class='computer_card4' id= 'deck'></img>
+                  <img class='computer_card5' id= 'deck'></img>
+                  <h4><span id = "result_computer"></span></h4>
+                </div>
+            </div>
+        </div>
+      <table align="center">
+        <tr>
+          <td colspan = "5">
+              <button class="btn btn-info" id="start">Start!</button>
+              <button class="btn btn-info" id="hit1">Hit!</button>
+              <button class="btn btn-info" id="hit2">Hit!</button>
+              <button class="btn btn-info" id="hit3">Hit!</button>
+              <button class="btn btn-info" id="hit4">You out of hits!</button>
+              <button class="btn btn-info" id="stand">Stand!</button>
+              <button class="btn btn-info" id="new-game">New Game!</button>
+          </td>
+        </tr>
+      </table>
+      <h3><span id="final_result"></span></h3>
+    </div>
+ </div>
+</body>
+</html>

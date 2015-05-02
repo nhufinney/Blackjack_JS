@@ -1,0 +1,30 @@
+h1 {
+  font-weight: lighter;
+}
+
+td {
+  border: solid 1px #000;
+}
+
+.red {
+  color: red;
+}
+
+#card-table {
+  font-size: 600%;
+  text-align: center;
+  margin: auto;
+}
+
+#hit1, #hit2, #hit3, #hit4, #stand, #new-game{
+    display:none
+}
+
+#deck {
+  -webkit-box-shadow: 11px 13px 41px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 13px 41px 0px rgba(0,0,0,0.75);
+  box-shadow: 11px 13px 41px 0px rgba(0,0,0,0.75);
+  width: 100px;
+  height: 150px;
+  border-radius: 8px;
+}
