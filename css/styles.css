@@ -6,10 +6,6 @@ td {
   border: solid 1px #000;
 }
 
-.red {
-  color: red;
-}
-
 #card-table {
   font-size: 600%;
   text-align: center;
@@ -27,4 +23,13 @@ td {
   width: 100px;
   height: 150px;
   border-radius: 8px;
+}
+.h1, .h2, .h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#final_result {
+  color: orangered;
+  align: center;
 }

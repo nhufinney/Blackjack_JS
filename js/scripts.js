@@ -65,8 +65,8 @@ $(document).ready(function() {
       } //end the function count()
     };//end the object Player
 
-//OBJECT TO DEAL WITH THE CARD DECK
-var BlackJack = {
+  //OBJECT TO DEAL WITH THE CARD DECK
+  var BlackJack = {
 
     //function deal
     cards: ["", "A spade", "2 spade","3 spade","4 spade","5 spade","6 spade", "7 spade","8 spade","9 spade", "10 spade","J spade","Q spade", "K spade", "A club", "2 club","3 club","4 club","5 club","6 club","7 club","8 club", "9 club","10 club","J club", "Q club","K club", "A heart", "2 heart", "3 heart", "4 heart", "5 heart", "6 heart", "7 heart", "8 heart", "9 heart", "10 heart", "J heart", "Q heart", "K heart", "A diamond", "2 diamond", "3 diamond", "4 diamond", "5 diamond", "6 diamond","7 diamond", "8 diamond", "9 diamond", "10 diamond", "J diamond", "Q diamond","K diamond"],
@@ -165,8 +165,6 @@ var BlackJack = {
   player2.hand.push(playing.card2, playing.card4);
 
   //show images of cards
-  // $("#hum1").text("Your cards: "+ playing.card1+"    &   "+playing.card3);
-  // $("#comp1").text("Computer cards: "+ playing.card2);
   $(".player_card1").attr("src", playing.image1 );
   $(".player_card1").show();
   $(".player_card2").attr("src", playing.image3 );
@@ -301,6 +299,7 @@ var BlackJack = {
 
     //function to start a new game
     $("#new-game").click(function() {
+        window.location.reload(true);
         var playing = Object.create(BlackJack);
         var player1 = Object.create(Player);
         var player2 = Object.create(Player);
