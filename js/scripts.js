@@ -53,7 +53,7 @@ $(document).ready(function() {
             counting =counting+parseInt(card);
           });
 
-          if (card_letters.length >= 2 && counting>=8 && counting<=10 ){
+          if (card_letters.length >= 2 && counting>=8 && counting<=10 && ace_count>=1){
             counting=counting+11;
           } else {
             counting = counting+ace_count;
@@ -299,12 +299,6 @@ $(document).ready(function() {
 
     //function to start a new game
     $("#new-game").click(function() {
-        window.location.reload(true);
-        var playing = Object.create(BlackJack);
-        var player1 = Object.create(Player);
-        var player2 = Object.create(Player);
-        player1.hand= player2.hand=[];
-        player1.total= player2.total=0;
         window.location.reload(true);
     });
 

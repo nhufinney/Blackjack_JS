@@ -38,7 +38,7 @@ td {
   display: inline-block;
 }
 
-#player {
+#player, #computer {
   display: inline-block;
   height: 250px;
 }
