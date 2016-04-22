@@ -5,7 +5,9 @@ h1 {
 td {
   border: solid 1px #000;
 }
-
+.container {
+  left: 10px;
+}
 #card-table {
   font-size: 600%;
   text-align: center;
@@ -31,5 +33,12 @@ td {
 
 #final_result {
   color: orangered;
-  align: center;
+  max-height: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+#player {
+  display: inline-block;
+  height: 250px;
 }
