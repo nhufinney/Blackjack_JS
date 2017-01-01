@@ -7,8 +7,10 @@ This is a card game also called twenty-one I have done on my own by JavaScripts.
 #### Setup instructions
 1. Clone this git repository https://github.com/nhufinney/BlackJack_ObjectInherit_JS.git
 
-2. Start the web app by loading BlackJack.html in your browser (or double click on the file)
-(please note that when you click "start" button, please wait for few seconds until browser finishes loading "bootstrap...", otherwise it will cause a mistake by storing info from the previous game. It is because the bootstrap is called from remote sources. Sorry for this inconvenience).
+2. In terminal, run command "npm install lite-server"
+then run command "npm start"
+
+3. External access the page by hitting IP as in terminal.
 
 #### Copyright © 2015, Nhu Finney
 

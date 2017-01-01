@@ -1,0 +1,29 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "Black Jack game wrote by jQuery and JavaScript",
+  "main": "BlackJack.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhufinney/Blackjack_JS.git"
+  },
+  "keywords": [
+    "black",
+    "jack",
+    "jQuery",
+    "blackjack",
+    "twenty",
+    "one",
+    "card",
+    "game"
+  ],
+  "author": "Nhu Finney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhufinney/Blackjack_JS/issues"
+  },
+  "homepage": "https://github.com/nhufinney/Blackjack_JS#readme"
+}

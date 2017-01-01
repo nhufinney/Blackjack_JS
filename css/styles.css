@@ -2,16 +2,11 @@ h1 {
   font-weight: lighter;
 }
 
-td {
-  border: solid 1px #000;
+.btn {
+  margin-left: 30px;
 }
 .container {
   left: 10px;
-}
-#card-table {
-  font-size: 600%;
-  text-align: center;
-  margin: auto;
 }
 
 #hit1, #hit2, #hit3, #hit4, #stand, #new-game{
@@ -25,6 +20,7 @@ td {
   width: 100px;
   height: 150px;
   border-radius: 8px;
+  margin-left: 20px;
 }
 .h1, .h2, .h3 {
   margin-top: 5px;
@@ -40,5 +36,5 @@ td {
 
 #player, #computer {
   display: inline-block;
-  height: 250px;
+  height: 300px;
 }
